@@ -82,6 +82,11 @@ deactivate
 * Conda is better if you want precompiled packages and cross-language dependencies.
 * venv is lighter and built into Python, but you handle packages manually.
 * Always keep a `requirements.txt` for reproducibility when using venv.
+  
+  ```bash
+pip freeze > requirements.txt
+```
+
 * Conda can also export an environment file:
 
 ```bash
